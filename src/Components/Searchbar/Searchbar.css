@@ -1,0 +1,38 @@
+
+.searchInputs {
+    margin-top: 75px;
+    display: flex;
+    border: solid 2px #E21B70;
+    width: 350px;
+    margin-left: 450px;
+  }
+  
+  .search input {
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    padding: 15px;
+    height: 30px;
+    width: 250px;
+  }
+  
+  .searchIcon {
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    place-items: center;
+    
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  .searchIcon svg {
+    font-size: 35px;
+  }
